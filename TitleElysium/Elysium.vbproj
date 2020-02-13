@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7305B001-3487-4A23-9695-F0EC2FA82063}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Elysium.My.MyApplication</StartupObject>
+    <RootNamespace>Elysium</RootNamespace>
+    <AssemblyName>Elysium</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Elysium.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Elysium.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattleScreen.Designer.vb">
+      <DependentUpon>BattleScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BattleScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BattleTransition.Designer.vb">
+      <DependentUpon>BattleTransition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BattleTransition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterSelection.Designer.vb">
+      <DependentUpon>CharacterSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CharacterSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBox.Designer.vb">
+      <DependentUpon>DialogBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DialogBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCastle.designer.vb">
+      <DependentUpon>frmCastle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCastle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCastleEntrance.designer.vb">
+      <DependentUpon>frmCastleEntrance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCastleEntrance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesert.designer.vb">
+      <DependentUpon>frmDesert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmForest.designer.vb">
+      <DependentUpon>frmForest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmForest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInn.Designer.vb">
+      <DependentUpon>frmInn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainTown.designer.vb">
+      <DependentUpon>frmMainTown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainTown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainVolcano.designer.vb">
+      <DependentUpon>frmMainVolcano.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainVolcano.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMap.designer.vb">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNavalCave.designer.vb">
+      <DependentUpon>frmNavalCave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNavalCave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnderwater.designer.vb">
+      <DependentUpon>frmUnderwater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnderwater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVolcano.designer.vb">
+      <DependentUpon>frmVolcano.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVolcano.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InGameMenu.designer.vb">
+      <DependentUpon>InGameMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InGameMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InGameOptions.Designer.vb">
+      <DependentUpon>InGameOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InGameOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.vb">
+      <DependentUpon>Items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemShop.Designer.vb">
+      <DependentUpon>ItemShop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadSave.Designer.vb">
+      <DependentUpon>LoadSave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapMovements.vb" />
+    <Compile Include="CharacterStatisics.vb" />
+    <Compile Include="Inventory.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save.designer.vb">
+      <DependentUpon>Save.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Save.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skills.Designer.vb">
+      <DependentUpon>Skills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Skills.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status.designer.vb">
+      <DependentUpon>Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitleElysium.Designer.vb">
+      <DependentUpon>TitleElysium.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TitleElysium.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BattleScreen.resx">
+      <DependentUpon>BattleScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BattleTransition.resx">
+      <DependentUpon>BattleTransition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharacterSelection.resx">
+      <DependentUpon>CharacterSelection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBox.resx">
+      <DependentUpon>DialogBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCastle.resx">
+      <DependentUpon>frmCastle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCastleEntrance.resx">
+      <DependentUpon>frmCastleEntrance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesert.resx">
+      <DependentUpon>frmDesert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmForest.resx">
+      <DependentUpon>frmForest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInn.resx">
+      <DependentUpon>frmInn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainTown.resx">
+      <DependentUpon>frmMainTown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainVolcano.resx">
+      <DependentUpon>frmMainVolcano.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMap.resx">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNavalCave.resx">
+      <DependentUpon>frmNavalCave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnderwater.resx">
+      <DependentUpon>frmUnderwater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVolcano.resx">
+      <DependentUpon>frmVolcano.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InGameMenu.resx">
+      <DependentUpon>InGameMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InGameOptions.resx">
+      <DependentUpon>InGameOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemShop.resx">
+      <DependentUpon>ItemShop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadSave.resx">
+      <DependentUpon>LoadSave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Save.resx">
+      <DependentUpon>Save.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skills.resx">
+      <DependentUpon>Skills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status.resx">
+      <DependentUpon>Status.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitleElysium.resx">
+      <DependentUpon>TitleElysium.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BadElysium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BetterElysiumTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroine2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroine3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroine4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heroineBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TestMusic.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterTown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WaterTownRuins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CastleEntrance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DialogueBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elysium Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grunt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grunt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grunt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guard.jpeg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hero16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\King.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luxendarc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainCastle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainTown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainTown1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavalCave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NormalGuy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\villian1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volcano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolcanoMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slime_animation_by_neslug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forestback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metamorph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scene01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desertback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seaback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcanoback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowKeys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_key_Space_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandsnake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scorpio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooper.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DemonFire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hothead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandsnake.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

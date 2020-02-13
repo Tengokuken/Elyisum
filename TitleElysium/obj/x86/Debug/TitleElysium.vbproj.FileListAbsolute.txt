@@ -1,0 +1,75 @@
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\bin\Debug\TitleElysium.exe
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\bin\Debug\TitleElysium.pdb
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\bin\Debug\TitleElysium.xml
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmCharSelect.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmLoadSave.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.Resources.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmOptions.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmTitle.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.vbproj.GenerateResource.Cache
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.exe
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.xml
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.pdb
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmBattleScreen.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmBattleTransition.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.DialogBox.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmEquipment.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.EquipmentShop.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.Form10.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainCastle.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmCastleEntrance.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmDesert.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmForest.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInn.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainTown.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainVolcano.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMap.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmNavalCave.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmUnderwater.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmVolcano.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmGame.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInGameMenu.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInGameOptions.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmItems.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmItemShop.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmSave.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.Skills.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.Status.resources
+C:\Users\Jenny\Desktop\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmSkills.resources
+E:\zZAkX7530zXSTART23149sdz\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.exe
+E:\zZAkX7530zXSTART23149sdz\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.xml
+E:\zZAkX7530zXSTART23149sdz\Elysium2010\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.pdb
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.exe
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.xml
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.pdb
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmBattleScreen.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmBattleTransition.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmCharSelect.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.DialogBox.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainCastle.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmCastleEntrance.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmDesert.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmForest.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInn.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainTown.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMainVolcano.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmMap.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmNavalCave.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmWaterRuins.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmVolcano.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInGameMenu.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmInGameOptions.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmItems.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmItemShop.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmLoadSave.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.Resources.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmOptions.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmSave.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmSkills.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmStatus.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmTitle.resources
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.vbproj.GenerateResource.Cache
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\bin\Debug\TitleElysium.exe
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\bin\Debug\TitleElysium.pdb
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\bin\Debug\TitleElysium.xml
+C:\Users\Jenny\Desktop\Final Elysium\TitleElysium\TitleElysium\obj\x86\Debug\TitleElysium.frmHelp.resources
